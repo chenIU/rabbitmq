@@ -1,0 +1,12 @@
+server:
+  port: 44000
+
+spring:
+  application:
+    name: rabbitmq-producer
+  rabbitmq:
+    host: 192.168.127.133
+    port: 5672
+    username: chenjy
+    password: 123456
+    virtual-host: /
